@@ -1,0 +1,10 @@
+target
+.idea
+.project
+.settings
+.classpath
+.reviewboardrc
+*.log
+*.log.[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]
+*.dia~
+.com.apple.timemachine.supported

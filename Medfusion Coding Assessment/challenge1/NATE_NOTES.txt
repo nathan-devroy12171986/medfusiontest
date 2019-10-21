@@ -1,0 +1,21 @@
+Notes on Implementation:
+====================================
+
+Thank you for the opportunity to provide my take on an
+implementation for this project. I made attempts to both
+provide unit tests and refactor based on the instructions in the
+README.txt and the existing scaffolding. Some quick notes:
+
+1. I wrote my tests in Spock, which can be found under the
+"groovy" file path under the test root.
+2. The implementation/refactoring took the ProviderService interface contract
+as a predicate - that is to say, I created an impl class that implemented
+the search() method taking as the presumption that the referenceList param
+would act as a referent to find matching elements in the preceding searchParams
+parameter.
+    - Taking this into account, I passed the search() method from my impl class
+    into the ClientService code and adjusted my test cases accordingly.
+
+Please let me know if you have any questions. Thank you again.
+
+--Nathan Devroy
